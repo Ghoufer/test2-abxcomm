@@ -4,4 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
 };
 
+module.exports = {
+  images: {
+    remotePatterns: [new URL('https://rickandmortyapi.com/api/**')],
+  },
+}
+
 export default nextConfig;

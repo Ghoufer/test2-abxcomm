@@ -1,0 +1,33 @@
+.search {
+  min-width: 500px;
+  align-self: center;
+  height: 44px;
+  font-size: 1rem;
+  padding: 0 12px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.search:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .search {
+    min-width: 80vw;
+    max-width: 400px;
+    height: 40px;
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search {
+    height: 36px;
+    font-size: 0.85rem;
+    padding: 0 8px;
+  }
+}
